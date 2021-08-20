@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #a000fc;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.25rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 60px;
+    margin-top: 0rem;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.desc{
+    padding: 1rem;
+    font-weight: bolder;
+    color:#802392;
+}
+
+.input{
+    padding-bottom: 1rem;
+    margin: 1rem;
+    width: 350px;
+    height: 40px;
+    border-color: blueviolet;
+    border-radius: 0.75rem;
+    border-width: 3px;
+}
+
+
+.button{
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+    outline: none;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    height: 60px;
+    width: 120px;
+    border:none;
+    color:white;
+    background-color: #8241ba;
+    cursor: pointer;
+}
+    
+.button:hover,
+.button:active {
+      border-radius: 15px;
+}
+
+.output{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #a000fc;
+    padding: 1rem;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+  .link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem 1rem 1rem;
+    color: white;
+  }
+  
+  .unordered {
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  
+  .list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
